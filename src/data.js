@@ -11,3 +11,11 @@ export var pattern1 = [
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F'],
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F']
 ]
+
+export var defaultArray = []
+for (let i = 0; i < 10; i++){
+  defaultArray[i] = []
+  for (let j = 0; j < 10; j++){
+    defaultArray[i].push('#F00')
+  }
+}
